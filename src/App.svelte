@@ -3,10 +3,10 @@
   <div>Loading, please wait...</div>
 </div>
 <a-scene
-  vr-mode-ui="enabled: false;"
+  vr-mode-ui="enabled: true;"
   renderer="logarithmicDepthBuffer: true;"
   embedded
-  arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+  arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;"
 >
   <!-- use rawgithack to retrieve the correct url for nft marker (see 'trex' below) -->
   <a-nft
